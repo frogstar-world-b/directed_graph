@@ -1,0 +1,31 @@
+// Descendants graph
+digraph {
+	node [color=lightblue2 style=filled]
+	rankdir=LR ratio=compress size=5
+	0 [label=Bootcut]
+	1 [label=Capris]
+	2 [label="High Rise"]
+	3 [label=Jeans]
+	4 [label="Knee-High Skirt"]
+	5 [label=Leggings]
+	6 [label="Long Skirt"]
+	7 [label="Low Rise"]
+	8 [label=Pants]
+	9 [label="Pencil Skirt"]
+	10 [label="Short Skirt"]
+	11 [label="Skinny Jeans"]
+	12 [label=Skirts]
+	13 [label=Sweatpants]
+	8 -> 3
+	8 -> 5
+	3 -> 0
+	8 -> 13
+	12 -> 4
+	3 -> 11
+	3 -> 7
+	3 -> 2
+	8 -> 1
+	12 -> 9
+	12 -> 10
+	12 -> 6
+}
